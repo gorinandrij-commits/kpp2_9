@@ -1,0 +1,26 @@
+/* Загальні стилі контейнера застосунку */
+.chat-container {
+  min-height: 80vh;
+}
+
+/* Основна область чату (праворуч) */
+.chat-area {
+  flex-grow: 1;
+}
+
+/* Поле вводу повідомлення (про запас) */
+.message-input {
+  min-height: 80px;
+}
+
+/* Локальні стилі для компонента логіну */
+.login-wrapper {
+  max-width: 320px;
+  margin: 0 auto;
+}
+#login-container {
+    width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+}
